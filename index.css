@@ -1,0 +1,193 @@
+body {
+  color: black;
+}
+.thanhmenu {
+  font-family: "Catamaran", sans-serif;
+  width: 100%;
+  position: fixed;
+  background-color: #00ff7f;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.anh {
+  width: 60px;
+}
+.note {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+}
+.gioithieu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  animation: hien 1s;
+}
+.gt1 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.bam {
+  width: 200px;
+  background-color: #00ff7f;
+  margin-top: 50px;
+}
+.dungnutbam {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  height: 50px;
+  margin-top: 15px;
+}
+/* chu thich */
+
+.khung {
+  border-style: solid;
+  width: 350px;
+}
+
+.khung1 {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+#dientask {
+  width: 260px;
+  height: 40px;
+}
+.giaynho {
+  display: flex;
+  width: 327px;
+  justify-content: center;
+  justify-content: space-between;
+}
+.nutbam {
+  margin-top: 3px;
+  width: 40px;
+  height: 36px;
+  background-color: #00ff7f;
+}
+.the {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+
+  height: 35px;
+  border: 2px solid;
+}
+
+.xoa1 {
+  background-color: #00ff7f;
+  width: 40px;
+  height: 39px;
+  margin-top: -2px;
+}
+.khungnho {
+  margin-top: 15px;
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+}
+.xoahet {
+  background-color: #00ff7f;
+  height: 40px;
+  color: black;
+}
+
+.sotask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+@keyframes hien {
+  0% {
+    margin-top: 50px;
+  }
+}
+.tep {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+
+  align-items: center;
+}
+.chu {
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.dungg {
+  animation: hien 1s;
+}
+.dung {
+  text-align: center;
+}
+.lienhe1 {
+  margin-top: 100px;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  background-color: #00ff7f;
+  display: flex;
+}
+.odunggg {
+  margin-top: 10px;
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 680px) {
+}
+@media screen and (max-width: 480px) {
+  .goiten {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .goiten {
+    font-size: 23px;
+  }
+  #dientask {
+    width: 230px;
+    height: 40px;
+    margin-left: 15px;
+  }
+  .giaynho {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  .chu {
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .view {
+    margin-left: 12px;
+    display: flex;
+    width: 230px;
+  }
+  .khungnho {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+}
